@@ -1,13 +1,14 @@
-package au.com.metricsoftware.sample.controller.SampleController;
+package au.com.metricsoftware.sample.controller;
 
 import au.com.metricsoftware.metrix.annotations.*;
+import au.com.metricsoftware.sample.domain.Person;
 import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
-// must have controller annotation, to be detected by scanner in samplecontext
+// must have controller annotation, to be detected by scanner
 @Controller
 public class HelloWorldController {
 

@@ -1,4 +1,4 @@
-package au.com.metricsoftware.sample.controller.SampleController;
+package au.com.metricsoftware.sample.domain;
 
 public class Person {
 
