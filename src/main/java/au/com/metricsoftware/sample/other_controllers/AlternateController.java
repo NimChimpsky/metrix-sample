@@ -7,13 +7,15 @@ import com.google.gson.Gson;
 @Controller
 public class AlternateController {
     private final Gson gson;
+    private final SampleService sampleService;
 
-    public AlternateController(Gson gson) {
+    public AlternateController(final Gson gson, final SampleService sampleService) {
         this.gson = gson;
+        this.sampleService = sampleService;
     }
 
     @Get("something")
     public String something() {
-        return "some data";
+        return sampleService.sampleDo();
     }
 }
