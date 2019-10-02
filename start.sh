@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
--Dorg.slf4j.simpleLogger.defaultLogLevel=debug
+# for example
+java -jar sample.jar -Dorg.slf4j.simpleLogger.defaultLogLevel=debug
